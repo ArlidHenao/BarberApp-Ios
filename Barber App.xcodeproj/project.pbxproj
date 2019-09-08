@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		94429F6D2325C86C00B80F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94429F6B2325C86C00B80F40 /* Main.storyboard */; };
 		94429F6F2325C86D00B80F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94429F6E2325C86D00B80F40 /* Assets.xcassets */; };
 		94429F722325C86D00B80F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94429F702325C86D00B80F40 /* LaunchScreen.storyboard */; };
+		94429F7C2325CC9100B80F40 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 94429F7B2325CC9100B80F40 /* Cartfile */; };
 		EB46747C527A1482542C5F11 /* Pods_Barber_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F2FBC353F93FD64D56C7FA /* Pods_Barber_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		94429F6E2325C86D00B80F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94429F712325C86D00B80F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94429F732325C86D00B80F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94429F7B2325CC9100B80F40 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		E2F2FBC353F93FD64D56C7FA /* Pods_Barber_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barber_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -51,6 +53,7 @@
 		94429F5B2325C86C00B80F40 = {
 			isa = PBXGroup;
 			children = (
+				94429F7B2325CC9100B80F40 /* Cartfile */,
 				94429F662325C86C00B80F40 /* Barber App */,
 				94429F652325C86C00B80F40 /* Products */,
 				C59060393EB8AA04FBEBD313 /* Pods */,
@@ -85,7 +88,6 @@
 				56A2FC5F85268AA6F4ED1FF7 /* Pods-Barber App.debug.xcconfig */,
 				50F0F234D727B0A1DD50A09C /* Pods-Barber App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +154,7 @@
 			files = (
 				94429F722325C86D00B80F40 /* LaunchScreen.storyboard in Resources */,
 				94429F6F2325C86D00B80F40 /* Assets.xcassets in Resources */,
+				94429F7C2325CC9100B80F40 /* Cartfile in Resources */,
 				94429F6D2325C86C00B80F40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
