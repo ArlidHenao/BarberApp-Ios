@@ -72,6 +72,12 @@
 		94429F662325C86C00B80F40 /* Barber App */ = {
 			isa = PBXGroup;
 			children = (
+				94F6A10423271AFC00AF2068 /* Application */,
+				94F6A10323271AF100AF2068 /* Constants */,
+				94F6A10223271AE400AF2068 /* Controllers */,
+				94F6A10123271AD500AF2068 /* Resources */,
+				94F6A10023271AC800AF2068 /* Models */,
+				94F6A0FF23271AA500AF2068 /* Base */,
 				94429F672325C86C00B80F40 /* AppDelegate.swift */,
 				94429F692325C86C00B80F40 /* ViewController.swift */,
 				94429F6B2325C86C00B80F40 /* Main.storyboard */,
@@ -80,6 +86,48 @@
 				94429F732325C86D00B80F40 /* Info.plist */,
 			);
 			path = "Barber App";
+			sourceTree = "<group>";
+		};
+		94F6A0FF23271AA500AF2068 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		94F6A10023271AC800AF2068 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94F6A10123271AD500AF2068 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94F6A10223271AE400AF2068 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		94F6A10323271AF100AF2068 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		94F6A10423271AFC00AF2068 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		C59060393EB8AA04FBEBD313 /* Pods */ = {
