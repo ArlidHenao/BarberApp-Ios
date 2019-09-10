@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2jm-K9-zyY">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Choose View Controller-->
+        <scene sceneID="Aoa-oj-Klf">
+            <objects>
+                <viewController id="2jm-K9-zyY" customClass="ChooseViewController" customModule="Barber_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oIU-CG-LhP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-fondo" translatesAutoresizingMaskIntoConstraints="NO" id="4s6-TS-ink">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTB-jD-sSi">
+                                <rect key="frame" x="20" y="662" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jUZ-ii-81G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                <state key="normal" title="INGRESAR">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwR-kp-dU7">
+                                <rect key="frame" x="20" y="732" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QTw-8a-kud"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                <state key="normal" title="REGISTRARSE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="grD-ls-V6U" firstAttribute="trailing" secondItem="hTB-jD-sSi" secondAttribute="trailing" constant="20" id="7I3-N0-brs"/>
+                            <constraint firstItem="lwR-kp-dU7" firstAttribute="centerX" secondItem="oIU-CG-LhP" secondAttribute="centerX" id="8Rh-CD-YJr"/>
+                            <constraint firstItem="hTB-jD-sSi" firstAttribute="leading" secondItem="grD-ls-V6U" secondAttribute="leading" constant="20" id="8Yo-Mb-avC"/>
+                            <constraint firstItem="lwR-kp-dU7" firstAttribute="top" secondItem="hTB-jD-sSi" secondAttribute="bottom" constant="20" id="93W-e6-lQw"/>
+                            <constraint firstAttribute="bottom" secondItem="4s6-TS-ink" secondAttribute="bottom" id="I7h-VO-Y3a"/>
+                            <constraint firstItem="grD-ls-V6U" firstAttribute="trailing" secondItem="lwR-kp-dU7" secondAttribute="trailing" constant="20" id="Jyk-Gp-yeq"/>
+                            <constraint firstItem="lwR-kp-dU7" firstAttribute="leading" secondItem="grD-ls-V6U" secondAttribute="leading" constant="20" id="Lom-Xb-iFE"/>
+                            <constraint firstItem="4s6-TS-ink" firstAttribute="leading" secondItem="grD-ls-V6U" secondAttribute="leading" id="M3s-Qo-kaN"/>
+                            <constraint firstItem="4s6-TS-ink" firstAttribute="centerX" secondItem="oIU-CG-LhP" secondAttribute="centerX" id="O1j-T8-y3z"/>
+                            <constraint firstItem="grD-ls-V6U" firstAttribute="trailing" secondItem="4s6-TS-ink" secondAttribute="trailing" id="dSm-MA-sxD"/>
+                            <constraint firstItem="grD-ls-V6U" firstAttribute="bottom" secondItem="lwR-kp-dU7" secondAttribute="bottom" constant="80" id="jO6-dz-3BV"/>
+                            <constraint firstItem="4s6-TS-ink" firstAttribute="top" secondItem="oIU-CG-LhP" secondAttribute="top" id="kH7-5e-37H"/>
+                            <constraint firstItem="hTB-jD-sSi" firstAttribute="centerX" secondItem="oIU-CG-LhP" secondAttribute="centerX" id="nKD-Tp-1Q6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="grD-ls-V6U"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnSignin" destination="hTB-jD-sSi" id="bhW-SX-hSM"/>
+                        <outlet property="btnSignup" destination="lwR-kp-dU7" id="boP-bb-Vi2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1O3-xI-hQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153.62318840579712" y="28.794642857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img-fondo" width="2448" height="3264"/>
+    </resources>
+</document>
