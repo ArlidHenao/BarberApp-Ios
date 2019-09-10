@@ -13,6 +13,8 @@
 		94429F6F2325C86D00B80F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94429F6E2325C86D00B80F40 /* Assets.xcassets */; };
 		94429F722325C86D00B80F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94429F702325C86D00B80F40 /* LaunchScreen.storyboard */; };
 		94429F7C2325CC9100B80F40 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 94429F7B2325CC9100B80F40 /* Cartfile */; };
+		94F6A108232723EA00AF2068 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6A107232723EA00AF2068 /* Constants.swift */; };
+		94F6A10A232723F500AF2068 /* LocalNotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6A109232723F500AF2068 /* LocalNotificationsController.swift */; };
 		EB46747C527A1482542C5F11 /* Pods_Barber_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F2FBC353F93FD64D56C7FA /* Pods_Barber_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		94429F712325C86D00B80F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94429F732325C86D00B80F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94429F7B2325CC9100B80F40 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		94F6A107232723EA00AF2068 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		94F6A109232723F500AF2068 /* LocalNotificationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotificationsController.swift; sourceTree = "<group>"; };
 		E2F2FBC353F93FD64D56C7FA /* Pods_Barber_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barber_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,12 +82,8 @@
 				94F6A10123271AD500AF2068 /* Resources */,
 				94F6A10023271AC800AF2068 /* Models */,
 				94F6A0FF23271AA500AF2068 /* Base */,
-				94429F672325C86C00B80F40 /* AppDelegate.swift */,
 				94429F692325C86C00B80F40 /* ViewController.swift */,
 				94429F6B2325C86C00B80F40 /* Main.storyboard */,
-				94429F6E2325C86D00B80F40 /* Assets.xcassets */,
-				94429F702325C86D00B80F40 /* LaunchScreen.storyboard */,
-				94429F732325C86D00B80F40 /* Info.plist */,
 			);
 			path = "Barber App";
 			sourceTree = "<group>";
@@ -91,6 +91,9 @@
 		94F6A0FF23271AA500AF2068 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				94429F672325C86C00B80F40 /* AppDelegate.swift */,
+				94429F702325C86D00B80F40 /* LaunchScreen.storyboard */,
+				94429F732325C86D00B80F40 /* Info.plist */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -105,6 +108,8 @@
 		94F6A10123271AD500AF2068 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				94F6A106232723CD00AF2068 /* Colors */,
+				94F6A105232723C400AF2068 /* Images */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 		94F6A10223271AE400AF2068 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				94F6A109232723F500AF2068 /* LocalNotificationsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -119,6 +125,7 @@
 		94F6A10323271AF100AF2068 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				94F6A107232723EA00AF2068 /* Constants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -128,6 +135,21 @@
 			children = (
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		94F6A105232723C400AF2068 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				94429F6E2325C86D00B80F40 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		94F6A106232723CD00AF2068 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 		C59060393EB8AA04FBEBD313 /* Pods */ = {
@@ -275,6 +297,8 @@
 			files = (
 				94429F6A2325C86C00B80F40 /* ViewController.swift in Sources */,
 				94429F682325C86C00B80F40 /* AppDelegate.swift in Sources */,
+				94F6A10A232723F500AF2068 /* LocalNotificationsController.swift in Sources */,
+				94F6A108232723EA00AF2068 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
