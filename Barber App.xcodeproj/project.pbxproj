@@ -13,6 +13,8 @@
 		94429F6F2325C86D00B80F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94429F6E2325C86D00B80F40 /* Assets.xcassets */; };
 		94429F722325C86D00B80F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94429F702325C86D00B80F40 /* LaunchScreen.storyboard */; };
 		94429F7C2325CC9100B80F40 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 94429F7B2325CC9100B80F40 /* Cartfile */; };
+		948BE12723286F0A000A5D6E /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948BE12623286F0A000A5D6E /* SignIn.storyboard */; };
+		948BE1292328716B000A5D6E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948BE1282328716B000A5D6E /* SignInViewController.swift */; };
 		94A0B0062328111F005FFC8B /* Choose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A0B0052328111F005FFC8B /* Choose.storyboard */; };
 		94A0B00823281E7D005FFC8B /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0B00723281E7D005FFC8B /* ChooseViewController.swift */; };
 		94F6A108232723EA00AF2068 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6A107232723EA00AF2068 /* Constants.swift */; };
@@ -32,6 +34,8 @@
 		94429F712325C86D00B80F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94429F732325C86D00B80F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94429F7B2325CC9100B80F40 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		948BE12623286F0A000A5D6E /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		948BE1282328716B000A5D6E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		94A0B0052328111F005FFC8B /* Choose.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Choose.storyboard; sourceTree = "<group>"; };
 		94A0B00723281E7D005FFC8B /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
 		94F6A107232723EA00AF2068 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -95,9 +99,19 @@
 			path = "Barber App";
 			sourceTree = "<group>";
 		};
+		948BE12323286DD1000A5D6E /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				948BE12623286F0A000A5D6E /* SignIn.storyboard */,
+				948BE1282328716B000A5D6E /* SignInViewController.swift */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
 		94A0B003232810CE005FFC8B /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				948BE12323286DD1000A5D6E /* Sign In */,
 				94A0B004232810D6005FFC8B /* Choose */,
 			);
 			path = Authentication;
@@ -252,6 +266,7 @@
 				94429F7C2325CC9100B80F40 /* Cartfile in Resources */,
 				94F6A10C2327243800AF2068 /* Default-568h@2x.png in Resources */,
 				94429F6D2325C86C00B80F40 /* Main.storyboard in Resources */,
+				948BE12723286F0A000A5D6E /* SignIn.storyboard in Resources */,
 				94A0B0062328111F005FFC8B /* Choose.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +339,7 @@
 			files = (
 				94429F6A2325C86C00B80F40 /* ViewController.swift in Sources */,
 				94429F682325C86C00B80F40 /* AppDelegate.swift in Sources */,
+				948BE1292328716B000A5D6E /* SignInViewController.swift in Sources */,
 				94F6A10A232723F500AF2068 /* LocalNotificationsController.swift in Sources */,
 				94A0B00823281E7D005FFC8B /* ChooseViewController.swift in Sources */,
 				94F6A108232723EA00AF2068 /* Constants.swift in Sources */,

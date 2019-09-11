@@ -14,8 +14,21 @@ class ChooseViewController: UIViewController {
     @IBOutlet weak var btnSignin: UIButton!
     @IBOutlet weak var btnSignup: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+//        if btnSignin.isSelected{
+//            var valueignin = "Si"
+//        }else{
+//            var valueignin = "No"
+//        }
+//        
+//        if btnSignin.isSelected{
+//            var valueSignup = "Si"
+//        }else{
+//            var valueSignup = "No"
+//        }
         
         // fragmento de codigo para colocar borde al boton ingresae de la interfaz choose
         let borderAlpha : CGFloat = 0.7
@@ -43,6 +56,6 @@ class ChooseViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
 
