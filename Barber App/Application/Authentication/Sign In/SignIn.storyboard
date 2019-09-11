@@ -29,6 +29,12 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-signin" translatesAutoresizingMaskIntoConstraints="NO" id="Fnv-AY-dAJ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8z-WM-h9m">
+                                <rect key="frame" x="20" y="241.5" width="105" height="27.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkt-cT-Zt7">
                                 <rect key="frame" x="20" y="64" width="20" height="20"/>
                                 <constraints>
@@ -40,18 +46,74 @@
                                     <segue destination="Md3-Wl-Ta8" kind="presentation" id="nSS-dM-nWX"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D0y-DR-a5z">
+                                <rect key="frame" x="20" y="191.5" width="374" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AcK-XV-mVA"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo Electrónico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjY-pj-XZh">
+                                <rect key="frame" x="20" y="154" width="172" height="27.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8IM-wh-K7v">
+                                <rect key="frame" x="20" y="349" width="374" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1cf-qJ-oRA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="INGRESAR"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VdQ-1d-8Zj">
+                                <rect key="frame" x="20" y="279" width="374" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="WZf-30-C8q"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Fnv-AY-dAJ" secondAttribute="bottom" id="0Kg-WB-sNt"/>
+                            <constraint firstItem="hjY-pj-XZh" firstAttribute="top" secondItem="fkt-cT-Zt7" secondAttribute="bottom" constant="70" id="Afe-YJ-ePa"/>
                             <constraint firstItem="7BA-kE-m9l" firstAttribute="trailing" secondItem="Fnv-AY-dAJ" secondAttribute="trailing" id="Baa-eX-oOX"/>
                             <constraint firstItem="fkt-cT-Zt7" firstAttribute="top" secondItem="7BA-kE-m9l" secondAttribute="top" constant="20" id="Cxq-FA-lHM"/>
                             <constraint firstItem="fkt-cT-Zt7" firstAttribute="leading" secondItem="7BA-kE-m9l" secondAttribute="leading" constant="20" id="FpT-yl-A9v"/>
                             <constraint firstItem="Fnv-AY-dAJ" firstAttribute="leading" secondItem="7BA-kE-m9l" secondAttribute="leading" id="HSP-Fj-acr"/>
+                            <constraint firstItem="D0y-DR-a5z" firstAttribute="leading" secondItem="7BA-kE-m9l" secondAttribute="leading" constant="20" id="IYc-1Z-18p"/>
+                            <constraint firstItem="VdQ-1d-8Zj" firstAttribute="leading" secondItem="7BA-kE-m9l" secondAttribute="leading" constant="20" id="LLR-8x-jeT"/>
+                            <constraint firstItem="7BA-kE-m9l" firstAttribute="trailing" secondItem="VdQ-1d-8Zj" secondAttribute="trailing" constant="20" id="Ldw-BV-4Ax"/>
+                            <constraint firstItem="J8z-WM-h9m" firstAttribute="leading" secondItem="7BA-kE-m9l" secondAttribute="leading" constant="20" id="Qap-cp-Zo8"/>
+                            <constraint firstItem="7BA-kE-m9l" firstAttribute="trailing" secondItem="8IM-wh-K7v" secondAttribute="trailing" constant="20" id="Tmd-E1-xIA"/>
+                            <constraint firstItem="D0y-DR-a5z" firstAttribute="top" secondItem="hjY-pj-XZh" secondAttribute="bottom" constant="10" id="YGR-tO-2oL"/>
+                            <constraint firstItem="7BA-kE-m9l" firstAttribute="trailing" secondItem="D0y-DR-a5z" secondAttribute="trailing" constant="20" id="Yfe-zX-G91"/>
+                            <constraint firstItem="J8z-WM-h9m" firstAttribute="top" secondItem="D0y-DR-a5z" secondAttribute="bottom" constant="20" id="cZF-h0-Dzb"/>
+                            <constraint firstItem="VdQ-1d-8Zj" firstAttribute="top" secondItem="J8z-WM-h9m" secondAttribute="bottom" constant="10" id="lyQ-LC-fyW"/>
                             <constraint firstItem="Fnv-AY-dAJ" firstAttribute="top" secondItem="wPF-BV-TQl" secondAttribute="top" id="nc9-RQ-WP1"/>
+                            <constraint firstItem="8IM-wh-K7v" firstAttribute="top" secondItem="VdQ-1d-8Zj" secondAttribute="bottom" constant="40" id="niI-Lm-F8w"/>
+                            <constraint firstItem="8IM-wh-K7v" firstAttribute="leading" secondItem="7BA-kE-m9l" secondAttribute="leading" constant="20" id="rv4-1S-DLW"/>
+                            <constraint firstItem="D0y-DR-a5z" firstAttribute="centerX" secondItem="wPF-BV-TQl" secondAttribute="centerX" id="u9q-AJ-6B8"/>
+                            <constraint firstItem="hjY-pj-XZh" firstAttribute="leading" secondItem="7BA-kE-m9l" secondAttribute="leading" constant="20" id="vMp-sa-wVs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7BA-kE-m9l"/>
                     </view>
+                    <connections>
+                        <outlet property="textFieldEmail" destination="D0y-DR-a5z" id="7o3-pP-HcJ"/>
+                        <outlet property="textFieldPassword" destination="VdQ-1d-8Zj" id="lI7-zK-Azv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HJt-6E-h3M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

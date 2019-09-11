@@ -10,10 +10,18 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var textFieldEmail: UITextField!
+    @IBOutlet weak var textFieldPassword: UITextField!
     @IBOutlet weak var iconReturn: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        textFieldEmail.layer.borderColor = UIColor.white.cgColor;
+        textFieldEmail.layer.borderWidth = 1.0
+        
+        textFieldPassword.layer.borderColor = UIColor.white.cgColor;
+        textFieldPassword.layer.borderWidth = 1.0
         // Do any additional setup after loading the view.
     }
     
